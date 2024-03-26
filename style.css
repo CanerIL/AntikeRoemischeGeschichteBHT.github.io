@@ -13,6 +13,8 @@ section {
     align-items: center;
     scroll-snap-align: start;
     position: relative;
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
@@ -45,12 +47,6 @@ section {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Adjusted box shadow */
 }
 
-.start, .two, .three, .four, .five {
-    background-size: cover;
-    background-position: center;
-}
-
-
 
 .start h1 {
     font-size: 72px; /* Increased font size */
@@ -73,23 +69,5 @@ section {
     border-radius: 10px; /* Increased border radius */
 }
 
-.two, .three, .four, .five {
-    background-size: cover;
-    background-position: center;
-}
 
-.two {
-    background-image: url('path_to_your_image2.jpg'); /* Replace with actual image path */
-}
 
-.three {
-    background-image: url('path_to_your_image3.jpg'); /* Replace with actual image path */
-}
-
-.four {
-    background-image: url('path_to_your_image4.jpg'); /* Replace with actual image path */
-}
-
-.five {
-    background-image: url('path_to_your_image5.jpg'); /* Replace with actual image path */
-}
