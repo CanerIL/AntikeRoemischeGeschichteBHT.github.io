@@ -16,7 +16,7 @@ section {
     background-size: cover;
     background-position: center;
 }
-
+  
 .container {
     height: 100vh;
     scroll-snap-type: y mandatory;
